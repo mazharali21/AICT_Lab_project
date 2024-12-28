@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: "Open Sans", serif;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+/* Write CSS from here */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    background-color: white;
+}
+
+header .nav_items ul{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 2px;
+}
+
+header .nav_items ul li a {
+    text-decoration: none;
+    color: #5E5E5E;
+}
+
+header .left_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.right_wrapper{
+    display: flex;
+    gap: 2rem;
+}
+
+.right_wrapper .icon{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.right_wrapper .icon img {
+    width: 20px;
+}
+
+.right_wrapper .icon p{
+    font-size: 16px;
+    color: #F04506;
+}
+
+.right_wrapper button
+{
+    border: none; 
+    padding: 13px 37px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: 0px 17px 27px rgba(240, 69, 6, 0.27);
+    z-index: 1;
+    display: inline-block;
+    transition: 0.6s;
+    background-image: linear-gradient(to left, #F04506, #d83e06, #F04506);
+    background-position: right;
+}
+
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FEF6F4;
+}
